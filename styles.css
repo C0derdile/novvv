@@ -77,7 +77,6 @@ header{
   pointer-events: none;
 }
 .sec {
-  margin-top: 22vh;
   position: relative;
   background: #2C2C2C;
   padding: 100px;
@@ -351,4 +350,5 @@ header{
     width: 316px;
     padding-inline: 2.5rem;
   }
+
 }
