@@ -1,90 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODERDILEfirstWEBPAGE</title>
+    <title>Novaa Speed - Teen Startup Community</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .bix {
-        width: 120px;           /* box width */
-        height: 120px;          /* box height */
-        background-color: #3498db;  /* fill color (blue) */
-        border: 2px solid black; /* optional border */
-        margin: 20px;            /* optional spacing */
-        }
-    </style>
-    
 </head>
-
 <body>
-  
-  <header>
-    <h2 class="name">coderdile</h2>
-    <nav class="navigation">
-      <a href="#" class="active">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">SERVICE</a>
-      <a href="#">CONTACT</a>
-    </nav>
-  </header>
-
-  <section class="brahh">
-    <img src="assets/hill1.png" id="hill1">
-    <img src="assets/hill2.png" id="hill2">
-    <img src="assets/hill3.png" id="hill3">
-    <img src="assets/hill4.png" id="hill4">
-    <img src="assets/hill5.png" id="hill5">
-    <h2 id="text">Novaa Speed</h2>
-    <img src="assets/tree.png" id="tree">
-    <img src="assets/cars.png" id="cars"> 
-    <img src="assets/plant.png" id="plant"> 
-    <img src="assets/leaf.png" id="leaf">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
     
-  </section>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">novaa speed</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="sec">
-    <h2>About Us</h2>
-    <p>
-    Nova Speed is a community of dreamers and doers who believe in turning ideas into reality. We grow together — learning new skills, building startups, and solving real problems. It’s a space where passion meets purpose and teamwork creates impact. At Nova Speed, we don’t just talk about success — we build it. This is where creativity sparks, energy flows, and dreams take flight.
-    </p>   
-    <h2> Our Motive </h2>
-    <p>
-      Our motive is simple — grow, create, and rise together. Nova Speed is built for those who want more than just motivation — we take action. Here, we learn, innovate, and push limits to make something meaningful. Every conversation sparks a new idea, every project builds confidence, and every member adds power to the community. We aim to turn skills into opportunities and dreams into startups. Nova Speed is not just a name — it’s a mindset. We move fast, think bold, and create a future that belongs to us.
-    </p>
-  </section>
-  
-  <section class="container">
-    <div class="slider-wrapper">
-      <div class="card_container">
-        <article class="card_article">
-          <img src="assets/codey.jpg" alt="image" class="cardimg">
-          <span class="card_description">Shaurya Gadhyan</span>
-          <h2 class="card_title">Creator</h2>
-          <a href="#" class="card_button">Know More</a>
-          
-        </article>
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="glitch">novaa speed</h1>
+            <p class="tagline">Where teenage innovators build tomorrow's startups</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Teen Founders</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Possibilities</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--<article class="card_article">
-          <img src="assets/codey.jpg" alt="image" class="cardimg">
- 
-          <div class="card_data">
-            <span class="card_description">C0derdile</span>
-            <h2 class="card_title">Designer</h2>
-            <button class="button">Know More</button>
-          </div>
-        </article>-->
-      </div>
-    </div>
+    <section id="about" class="section">
+        <div class="container fade-in-section">
+            <h2>Our Vision</h2>
+            <p class="lead">A collaborative space where ambitious teenagers transform ideas into reality, supporting each other through every step of the startup journey.</p>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64">
+                            <circle cx="32" cy="32" r="28"/>
+                        </svg>
+                    </div>
+                    <h3>Ideate</h3>
+                    <p>Brainstorm and refine your startup concepts with peers who understand your vision</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64">
+                            <circle cx="24" cy="32" r="16"/>
+                            <circle cx="40" cy="32" r="16"/>
+                        </svg>
+                    </div>
+                    <h3>Collaborate</h3>
+                    <p>Find co-founders and team members who share your passion and drive</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M32 8 L48 56 L32 48 L16 56 Z"/>
+                        </svg>
+                    </div>
+                    <h3>Launch</h3>
+                    <p>Build and scale your startup with community support and resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </section>
+    <section id="community" class="community-section">
+        <div class="community-header fade-in-section">
+            <h2>Our Community</h2>
+            <p class="lead">Meet the innovators, creators, and builders shaping the future</p>
+        </div>
+        
+        <div class="slider-container" id="sliderContainer"></div>
+    </section>
 
+    <section id="join" class="section cta-section">
+        <div class="container fade-in-section">
+            <h2>Join Novaa Speed</h2>
+            <p class="lead">Ready to give your ideas a real start? Join 100+ teenage entrepreneurs building the future.</p>
+            <div class="cta-container">
+                <button class="cta-button">Let's Accelerate</button>
+                <button class="cta-button secondary">More Info</button>
+            </div>
+        </div>
+    </section>
 
-  <div class="bix"></div> <!--box-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2069 Novaa Speed. Empowering teenage entrepreneurs.</p>
+        </div>
+    </footer>
 
-  <script src="script.js"̥></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
